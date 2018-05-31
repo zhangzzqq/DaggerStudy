@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dagger2test" />
+            <option value="$PROJECT_DIR$/dagger2test3" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

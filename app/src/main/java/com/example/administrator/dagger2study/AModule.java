@@ -16,7 +16,10 @@ public class AModule {
     public Gson provideGson(){
         return new Gson();
     }
-
-
+//
+//    @Provides
+//    public A provideA(){
+//        return new A();
+//    }
 
 }

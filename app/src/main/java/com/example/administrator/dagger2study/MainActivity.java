@@ -15,6 +15,14 @@ import javax.inject.Inject;
  * 官方文档
  * <p>
  * https://google.github.io/dagger/users-guide
+ *
+ * @Module Module的职责是用来生成实例，可以把他比作一个工厂，专业生成各种类的实例。
+ * @Provides module类对外提供实例方法的注解
+ *
+ *
+ *
+ *
+ *
  */
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -57,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 //        a = DaggerAComponent.builder().build().a();
         DaggerAComponent.builder().build().inject(this);
-
+//        DaggerAComponent.builder().aModule(new AModule(this)).build().inject(this);
 
     }
 
